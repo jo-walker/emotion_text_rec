@@ -1,4 +1,4 @@
-# EEmotionOnText: Developing a Model for Emotion Detection in Text
+# EmotionOnText: Developing a Model for Emotion Detection in Text
 
 <!-- ![image](https://github.com/jo-walker/emotion_text_rec/assets//pictureofthemodel) -->
 
@@ -19,6 +19,8 @@ This project aims to develop a model to detect emotions in text, such as employe
 ## Project Overview & Objective
 
 EmotionOnText aims to revolutionize how companies manage employee well-being. The objective is to create a model that automatically analyzes the emotions expressed in employees' text communications. This model will help detect emotional distress early, allowing for timely interventions without the need for direct inquiries. By doing so, it helps prevent potential negative impacts on both individuals and the company's performance.
+
+- check the documentation here: https://docs.google.com/document/d/18TlBY4mz9_6BliMANmsRI5WGGLWSj7tmWPVC1VD6JZU/edit?usp=sharing
 
 ## Scope
 
