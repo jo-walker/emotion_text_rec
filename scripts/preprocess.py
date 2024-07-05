@@ -1,10 +1,10 @@
-# preprocess.py
+# preprocess.py: This script handles the preprocessing of text data (Handles text cleaning, tokenization, stop word removal, and lemmatization.)
 
-import re
-import nltk
-import spacy
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+import re # regular expressions for text cleaning
+import nltk # Natural Language ToolKit for tokenizing and stop words
+import spacy # For advanced natural language processing
+from nltk.corpus import stopwords # NLTK module for removing common words
+from nltk.tokenize import word_tokenize # and tokenizing text
 
 # Download necessary NLTK resources
 nltk.download('stopwords')
