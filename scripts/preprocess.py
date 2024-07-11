@@ -1,5 +1,3 @@
-# preprocess.py: This script handles the preprocessing of text data (Handles text cleaning, tokenization, stop word removal, and lemmatization.)
-
 import re # regular expressions for text cleaning
 import nltk # Natural Language ToolKit for tokenizing and stop words
 import spacy # For advanced natural language processing
@@ -60,5 +58,7 @@ def preprocess_text(text):
 
 # Example usage
 if __name__ == "__main__":
-    sample_text = "This is a sample text for preprocessing! Visit https://example.com for more details. #NLP @spacy"
+    sample_text = """
+    Dear [Company Name] Support Team I hope this message finds you well. I am writing to bring to your attention a significant issue I encountered with the latest update to your software. After installing the most recent update (version 2.3.1 I noticed that a critical feature of the software which I rely on daily is no longer functioning correctly. Specifically the data export function now generates files with incorrect formatting making the data unusable for my reports. This problem started immediately after the update and I verified that it was not present in the previous version (2.3.0). To make matters worse I have a presentation scheduled with my team tomorrow morning and this error has put me in a very difficult position. I spent several hours troubleshooting and attempting various workarounds but to no avail. It is quite embarrassing considering I have always advocated for your software within my organization. I would appreciate it if your development team could look into this matter urgently and provide a fix or a rollback option to the previous stable version. Additionally any immediate advice on how to resolve the issue temporarily would be greatly appreciated. I trust that your team will handle this matter with the urgency it requires. Thank you for your prompt attention to this issue. Best regards
+    """
     print(preprocess_text(sample_text))
